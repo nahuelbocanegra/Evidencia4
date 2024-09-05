@@ -1,4 +1,4 @@
-import mysql.connector
+import mysql.connector # type: ignore
 
 db= mysql.connector.connect(
     host = "localhost",
@@ -7,4 +7,4 @@ db= mysql.connector.connect(
     database= "fresadoracnc",
 )
 
-print(db) 
+print(db)
